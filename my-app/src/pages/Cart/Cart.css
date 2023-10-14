@@ -1,0 +1,34 @@
+#cart-aside{
+    margin-top: 52px;
+    width: 18vw;
+    height: 35vh;
+    background-color: rgb(218, 208, 208);
+    position: fixed;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+#total{
+    text-align: center;
+}
+#purchase{
+    display: flex;
+    justify-content: center;
+}
+.purchasebutton{
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+#purchase button:hover{
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+}
+#card-item-container{
+    display: flex;
+    flex-direction: column;
+}

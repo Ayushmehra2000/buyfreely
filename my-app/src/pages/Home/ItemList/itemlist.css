@@ -1,0 +1,7 @@
+.item-container{
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    justify-content: space-around;
+}

@@ -1,0 +1,71 @@
+.bill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:70%;
+    margin: 10px 10px;
+    background-color: rgb(173, 167, 167);
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#order{
+    display: flex;
+    width:90%;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+#date{
+    display: flex;
+    width: 90%;
+    text-align: center;
+}
+.name{
+   width: 40%;
+   height: 25px;
+   overflow:hidden;
+   padding: 2px;
+   border: 1px solid black;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+   height: 25px;
+   padding: 2px;
+   
+   border: 1px solid black;border: 1px solid black;
+}
+.qty{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 25px;
+    padding: 2px;
+    border: 1px solid black;
+}
+.total{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 25px;
+    padding: 2px;
+    border: 1px solid black;
+}
+.totalhead{
+    display: flex;
+    justify-content: right;
+    width: 81%;
+    height: 25px;
+    padding: 2px;
+    border: 1px solid black;
+}
+.totalpricedisplay{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 25px;
+    padding: 2px;
+    font-weight: bold;
+    border: 1px solid black;
+}
